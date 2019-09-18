@@ -1,0 +1,3 @@
+select SUM(SALEPRICE) as SUM_OF_SLAEPRICE
+	from PETSALE;
+    

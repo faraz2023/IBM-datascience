@@ -1,0 +1,16 @@
+# UPDATE
+
+UPDATE AUTHOR
+SET
+	LASTNAME = khosh,
+    FIRSTNAME = ferri
+WHERE
+	AUTHOR_ID = A2;
+
+
+# DELETE
+
+DELETE FROM AUTHOR 
+	WHERE AUTHOR_ID IN ('A2', 'A3');
+	
+    
